@@ -1,0 +1,112 @@
+
+
+
+body{
+    background-color: black;
+}
+
+.full_container {
+    height: 600px;
+    width: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    height: 430px;
+    width: 250px;
+}
+.analog{
+    background-image: url('images.jpg');
+    background-position: center;
+    height: 200px;
+    width: 200px;
+    border: 1px solid black;
+    border-radius: 50%;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0px 1px 16px 7px red;
+}
+
+#hour,#minute,#second,#center_dot{
+    height: 20px;
+    position: absolute;
+    text-align: center;
+    display: flex;
+}
+
+#hour {
+    width: 150px;
+    z-index: 4;
+    align-items: center;
+}
+
+#minute {
+    width: 200px;
+    z-index: 5;
+    align-items: center;
+}
+
+#second {
+    width: 250px;
+    z-index: 6;
+    align-items: center;
+}
+
+#center_dot {
+    height: 30px;
+    width: 30px;
+    background-color:red;
+    border-radius: 50%;
+    box-shadow: 0px 0px 10px rgba(0,0,255,0.484);
+}
+
+.sign {
+    height: 20px;
+    width: 20px;
+    background-color: gold;
+    border-radius: 50%;
+    box-shadow: 1px 1px 14px 9px white;
+}
+
+.sign_stick_hour{
+    width: 50%;
+    height: 2px;
+    border: 3px solid white;
+    background-color: white;
+    border-top-right-radius: 50%;
+    border-bottom-left-radius: 50%;
+    box-shadow: 5px 0px 5px 3px blue;
+}
+
+.sign_stick_minute{
+    width: 50%;
+    height: 2px;
+    border: 3px solid white;
+    background-color: white;
+    border-top-right-radius: 50%;
+    border-bottom-left-radius: 50%;
+    box-shadow: 5px 0px 5px 3px blue;
+}
+    
+.sign_stick_second{
+    width: 50%;
+    height: 2px;
+    border: 3px solid white;
+    background-color: white;
+    border-top-right-radius: 50%;
+    border-bottom-left-radius: 50%;
+    box-shadow: 5px 0px 5px 3px blue;
+
+}
+#digital {
+    color: white;
+    text-shadow: 1px 1px 1 white;
+    margin-top: 40px;
+    font-size: 35px;
+    text-align: center;
+
+}
